@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="Sleep"
+        android:theme="@android:style/Theme.NoDisplay">
+
+        <!--
+            android:exported="true" ОБЯЗАТЕЛЕН для targetSdk >= 31 (Android 12+)
+            если у Activity есть intent-filter. Без него сборка упадёт с ошибкой.
+            Источник: developer.android.com/about/versions/12/behavior-changes-12#exported
+        -->
+        <activity
+            android:name=".SleepActivity"
+            android:exported="true"
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
