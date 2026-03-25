@@ -8,3 +8,9 @@ Compatible with Android 10 (API 29) and above, including Android 14. Tested on:
     Samsung J5 2016 (j5xnlte), LineageOS 17.1 (Android 10), Magisk v26.4
 
     Samsung SM-A032F, LineageOS 21 (Android 14), Magisk v30.7
+
+---
+
+## License
+
+MIT License. Use and modify as you wish..
